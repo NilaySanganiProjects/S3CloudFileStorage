@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .card-header .icon {
+    color: #020203;
+    margin-bottom: 5px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .tab {
+    background: #eaeaea;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background: #020203;
+    color: white;
+  }
+  
+  .upload-section, .download-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background: #020203;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background: gray;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background: #020203;
+    transition: width 0.3s;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  
